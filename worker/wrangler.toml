@@ -6,8 +6,13 @@ compatibility_date = "2026-03-28"
 # Comma-separated origins, e.g. "https://tutor-sophia.antxz.com,https://www.tutor-sophia.antxz.com"
 ALLOWED_ORIGINS = "https://tutor-sophia.antxz.com,https://www.tutor-sophia.antxz.com"
 
+# Configure these as Wrangler secrets (recommended):
+# - RESEND_API_KEY
+# - RESEND_FROM
+# - RESEND_TO
+
 # Optional KV namespace binding for stronger rate limiting.
 # Create with: wrangler kv namespace create RATE_LIMIT_KV
 [[kv_namespaces]]
 binding = "RATE_LIMIT_KV"
-id = ""
+id = "bf4c3a8566394643b70404fa4fe5d2a4"
