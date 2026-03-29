@@ -1,0 +1,13 @@
+name = "sophia-contact-worker"
+main = "contact-worker.js"
+compatibility_date = "2026-03-28"
+
+[vars]
+# Comma-separated origins, e.g. "https://tutor-sophia.antxz.com,https://www.tutor-sophia.antxz.com"
+ALLOWED_ORIGINS = "https://tutor-sophia.antxz.com,https://www.tutor-sophia.antxz.com"
+
+# Optional KV namespace binding for stronger rate limiting.
+# Create with: wrangler kv namespace create RATE_LIMIT_KV
+[[kv_namespaces]]
+binding = "RATE_LIMIT_KV"
+id = ""
