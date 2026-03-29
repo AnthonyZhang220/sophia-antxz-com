@@ -3,8 +3,8 @@ main = "contact-worker.js"
 compatibility_date = "2026-03-28"
 
 [vars]
-# Comma-separated origins, e.g. "https://tutor-sophia.antxz.com,https://www.tutor-sophia.antxz.com"
-ALLOWED_ORIGINS = "https://tutor-sophia.antxz.com,https://www.tutor-sophia.antxz.com"
+# Comma-separated origins, e.g. "https://sophia.antxz.com,https://www.sophia.antxz.com"
+ALLOWED_ORIGINS = "https://sophia.antxz.com,https://www.sophia.antxz.com"
 
 # Configure these as Wrangler secrets (recommended):
 # - RESEND_API_KEY
